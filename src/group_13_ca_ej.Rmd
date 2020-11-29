@@ -28,3 +28,4 @@ ggplot(data = ces) +
        title = "CalEnviroScore 3.0 related to White Population density (Christy & Norris 2020)")
 ```
 
+There is a general downward trend. The higher the percent of white folks in a census tract the lower the CalEnviroScreen 3.0 score or the lower the environmental justice burden of the census tract.
