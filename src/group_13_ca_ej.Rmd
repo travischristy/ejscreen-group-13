@@ -1,0 +1,22 @@
+---
+title: "Group 13 CA pollution burden"
+author: "Travis Christy, Carly Norris"
+date: "11/29/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+# Required packages
+library(tidyverse)
+library(janitor)
+library(here)
+```
+
+```{r}
+# Read in ces3demographics.csv
+ces <- read_csv(here("data", "ucsb_grad_data.csv")) %>% 
+  clean_names()
+```
+
