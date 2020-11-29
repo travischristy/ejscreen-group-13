@@ -16,7 +16,7 @@ library(here)
 
 ```{r}
 # Read in ces3demographics.csv
-ces <- read_csv(here("data", "ucsb_grad_data.csv")) %>% 
+ces <- read_csv(here("data", "ces3demographics.csv")) %>% 
   clean_names()
 ```
 
